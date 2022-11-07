@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.kismetwireless.android.pcapcapture"
+    package="com.lunodzo.pcapcapture"
     android:versionCode="1"
     android:versionName="2012.12.1">
     <!-- <uses-sdk -->

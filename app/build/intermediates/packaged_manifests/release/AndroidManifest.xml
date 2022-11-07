@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lunodzo.pcapcapture"
+    android:versionCode="1"
+    android:versionName="2012.12.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+    <!-- <uses-sdk -->
+    <!-- android:minSdkVersion="13" -->
+    <!-- android:targetSdkVersion="15" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lunodzo.pcapcapture.FakeAPScanner"
+            android:label="Scan the Fake"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.lunodzo.pcapcapture.WiFiScan"
+            android:parentActivityName="com.lunodzo.pcapcapture.MainActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.lunodzo.pcapcapture.MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <activity
+            android:name="com.lunodzo.pcapcapture.ChannelPrefs"
+            android:label="@string/pref_channel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.lunodzo.pcapcapture.FilemanagerActivity"
+            android:label="@string/title_activity_filemanager"
+            android:theme="@style/AppTheme" />
+
+        <receiver android:name="com.lunodzo.pcapcapture.WiFiScan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.lunodzo.pcapcapture.PcapService"
+            android:description="@string/pcap_service_desc" />
+    </application>
+
+</manifest>

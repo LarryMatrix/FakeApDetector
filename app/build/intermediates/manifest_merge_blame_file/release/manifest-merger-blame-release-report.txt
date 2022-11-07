@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lunodzo.pcapcapture"
+4    android:versionCode="1"
+5    android:versionName="2012.12.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml
+10    <!-- <uses-sdk -->
+11    <!-- android:minSdkVersion="13" -->
+12    <!-- android:targetSdkVersion="15" /> -->
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:9:5-81
+13-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:10:5-80
+14-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:11:5-81
+15-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:12:5-79
+16-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:12:22-76
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+17-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:13:5-76
+17-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:13:22-73
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:14:5-75
+18-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:14:22-73
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:15:5-67
+19-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:15:22-65
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:16:5-66
+20-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:16:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:17:5-78
+21-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:17:22-76
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+22-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:18:5-92
+22-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:18:22-72
+23    </uses-permission>
+24
+25    <supports-screens
+25-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:20:5-26:40
+26        android:anyDensity="true"
+26-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:21:9-34
+27        android:largeScreens="true"
+27-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:22:9-36
+28        android:normalScreens="true"
+28-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:23:9-37
+29        android:resizeable="true"
+29-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:24:9-34
+30        android:smallScreens="true"
+30-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:25:9-36
+31        android:xlargeScreens="true" />
+31-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:26:9-37
+32
+33    <application
+33-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:29:5-76:19
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.5.0] /home/lawrance/.gradle/caches/transforms-3/e759884e8e1539e68246ec4d8729cc98/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+35        android:icon="@drawable/ic_launcher"
+35-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:30:9-45
+36        android:label="@string/app_name"
+36-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:31:9-41
+37        android:theme="@style/AppTheme" >
+37-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:32:9-40
+38        <activity
+38-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:33:9-35:46
+39            android:name="com.lunodzo.pcapcapture.FakeAPScanner"
+39-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:33:19-48
+40            android:label="Scan the Fake"
+40-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:34:13-42
+41            android:theme="@style/AppTheme" />
+41-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:35:13-44
+42        <activity
+42-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:37:9-39:57
+43            android:name="com.lunodzo.pcapcapture.WiFiScan"
+43-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:37:19-43
+44            android:parentActivityName="com.lunodzo.pcapcapture.MainActivity"
+44-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:39:13-55
+45            android:theme="@style/Theme.AppCompat" />
+45-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:38:13-51
+46        <activity
+46-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:40:9-55:20
+47            android:name="com.lunodzo.pcapcapture.MainActivity"
+47-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:41:13-41
+48            android:label="@string/title_activity_main"
+48-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:42:13-56
+49            android:launchMode="singleTask" >
+49-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:43:13-44
+50            <intent-filter>
+50-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:44:13-47:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:45:17-69
+51-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:45:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:46:17-77
+53-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:46:27-74
+54            </intent-filter>
+55            <intent-filter>
+55-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:48:13-50:29
+56                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+56-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:49:17-90
+56-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:49:25-87
+57            </intent-filter>
+58
+59            <meta-data
+59-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:52:13-54:57
+60                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+60-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:53:17-79
+61                android:resource="@xml/device_filter" />
+61-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:54:17-54
+62        </activity>
+63        <activity
+63-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:56:9-59:47
+64            android:name="com.lunodzo.pcapcapture.ChannelPrefs"
+64-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:57:13-41
+65            android:label="@string/pref_channel"
+65-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:58:13-49
+66            android:theme="@style/AppTheme" />
+66-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:59:13-44
+67        <activity
+67-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:60:9-63:47
+68            android:name="com.lunodzo.pcapcapture.FilemanagerActivity"
+68-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:61:13-48
+69            android:label="@string/title_activity_filemanager"
+69-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:62:13-63
+70            android:theme="@style/AppTheme" />
+70-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:63:13-44
+71
+72        <receiver android:name="com.lunodzo.pcapcapture.WiFiScan" >
+72-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:65:9-71:20
+72-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:65:19-43
+73            <intent-filter>
+73-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:66:13-70:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:45:17-69
+74-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:45:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:46:17-77
+76-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:46:27-74
+77
+78                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+78-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:69:17-77
+78-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:69:25-75
+79            </intent-filter>
+80        </receiver>
+81
+82        <service
+82-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:73:9-75:63
+83            android:name="com.lunodzo.pcapcapture.PcapService"
+83-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:74:13-40
+84            android:description="@string/pcap_service_desc" />
+84-->/home/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/AndroidManifest.xml:75:13-60
+85    </application>
+86
+87</manifest>

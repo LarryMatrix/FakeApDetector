@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/root/StudioProjects/FakeApDetector/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/Users/lawrance/AndroidStudioProjects/FakeApDetector/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/root/StudioProjects/FakeApDetector/app/src/main/res/values-v11/styles.xml",
+                    "source": "/Users/lawrance/AndroidStudioProjects/FakeApDetector/app/src/main/res/values-v11/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
